@@ -1,18 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>WDD 131</title>
-    <meta name="description" content="description of page using keywords">
-    <meta name="author" content="John Lim">
-    <link rel="stylesheet" href="styles/filename">
-</head>
-<body
-    <header><h1>Page Title - Heading 1</h1></header>
-    <nav></nav>
-    <main></main>
-    <footer>&#169;John Lim | BYU-Idaho | WDD 131 - Fall 2024</footer>
-    <script src="scripts/"></script>
-</body>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Dynamic Web Fundamentals - John Joemar Lim</title>
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals | John Joemar Lim | About Myself">
+        <meta name="author" content="John Joemar Lim">
+        <link rel="stylesheet" href="styles/base.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+        <script src="scripts/getdates.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+                WDD 131 - Dynamic Web Fundamentals - <span>John Joemar Lim</span>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/johnjoemarlim/">LinkedIn</a></li>
+                    <li><a href="https://byui.instructure.com/.">I-Learn</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a></li>
+                    <li><a>Final Project</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="card" id="about-me">
+                <h2>About Me</h2>
+                <img id="about-me-img" src="images/me.jpg" alt="Hello, I'm John Joemar Lim" width="200">
+                <p>Hi! My name is John Joemar Lim. I'm originally from the Philippines, but I'm currently living in Ireland with my family. 
+                    I enjoy spending time with my family, playing games with them, and watching movies. Aside from spending time with my family, 
+                    I also enjoy basketball. I'm the eldest of 4 children. I served my fulltime mission at Philippines Cebu and Cebu East Missions 
+                    in 2012-2014. My wife is also a returned missionary and she served in Philippines Cagayan de Oro Mission in 2011-2012. My 
+                    beautiful wife, Vanessa, and I got married in January of 2017, and we were blessed with twin daughters, Arah Virtue and Neah Chaste, 
+                    in June of 2018. I'm currently working as a nurse, but I'm hoping to be a web and computer developer here in Ireland. We're living 
+                    in Dublin, the capital of the Republic of Ireland, at the moment but we're planning to move to a different county due to the very 
+                    expensive housing here in the main city. My wife finished a degree in Bachelor of Science in Information Technology, and she worked 
+                    as an IT Manager before. She is looking after the kids fulltime at the moment, and I'm still very proud of her. I'm very grateful 
+                    for her sacrifices and for her love for us.
+                </p>
+                <h3 class="country">Dublin, Ireland</h3>
+                <figure>
+                    <img id="country-img" src="images/flag.jpeg" alt="Dublin, Ireland">
+                    <figcaption>Official Flag of Ireland</figcaption>
+                </figure>
+                <p>The Republic of Ireland occupies most of the island of Ireland, off the coast of England and Wales. Its capital, Dublin, is the birthplace 
+                    of writers like Oscar Wilde, and home of Guinness beer. The 9th-century Book of Kells and other illustrated manuscripts are on show 
+                    in Dublin's Trinity College Library. Dubbed the "Emerald Isle” for its lush landscape, the country is dotted with castles like 
+                    medieval Cahir Castle.
+                </p>
+            </section>
+            <section class="card" id="resources">
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                    <li><a href="https://github.com/iamismile/web-dev-resources" target="_blank">GitHub</a></li>
+                    <li><a href="https://learn.microsoft.com/en-us/training/paths/web-development-101/" target="_blank">Microsoft Learn</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p id="year">
+                ©️<span id="currentyear"></span> 🎆 John Joemar Lim 🎆 Dublin, Ireland
+            </p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </footer>
+        
+    </body>
 </html>

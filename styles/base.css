@@ -1,0 +1,164 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    max-width: 950px;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: 500;
+    background-color: #174E70;
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+h1 span {
+    color: #FCF258;
+}
+nav {
+    /* display: flex; */
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #333333;
+    /* padding: 1rem; */
+    /* min-height: 50px;
+    align-items: center; */
+    
+    
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: space-around; */
+    padding: 0;
+}
+nav a {
+    
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 1rem;
+    
+    
+}
+nav ul li {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+nav a:hover {
+    border: 1px solid #ffff;
+    background-color: black;
+    color: white;
+}
+
+#country-img {
+    width: 200px;
+    height: auto;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    
+}
+
+.card p {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+main h2 {
+    background-color: #174E70;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    min-height: 3rem;
+    align-content: center;
+   
+}
+
+main h3 {
+    text-align: center;
+    border-bottom: 1px solid #333333;
+    padding: 0.5rem 1rem;
+    /* margin: 3rem; */
+    margin: 0 auto;
+    max-width: 300px;
+    
+}
+
+#about-me-img {
+    float: right;
+    max-width: 100px;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+figure {
+    float: left;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    max-width: 200px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#resources ul{
+    padding-top: 80%;
+    /* display: grid; */
+    /* place-items: center; */
+}
+
+footer {
+    display: grid;
+    background-color: #174E70;
+    min-height: 100px;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+    color: antiquewhite;
+    /* place-items: center; */
+}
+
+#lastModified {
+    /* place-items: center; */
+    /* text-align: center;
+    margin: 0 auto; */
+    color: #FCF258;
+}
+#year {
+    place-self: end;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+/* #about-me {
+    grid-column: 1/3;
+} */
+
+/* #resources {
+    grid-column: 3/4;
+} */
