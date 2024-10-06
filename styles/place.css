@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: var(--font-family);
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -12,9 +16,9 @@ main {
 h1 {
     text-align: center;
     padding: 1rem;
-    background-color: royalblue;
+    background-color: var(--secondary-color);
     color: #ffff;
-    border-bottom: 1rem solid crimson;
+    border-bottom: 1rem solid var(--primary-color);
 }
 
 .hero img {
@@ -54,7 +58,7 @@ h2 {
 }
 
 .data {
-    border-bottom: solid 1px crimson;
+    border-bottom: solid 1px var(--primary-color);
 }
 
 .weather img {
@@ -92,7 +96,9 @@ footer {
 }
 
 :root {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    margin: 0 auto;
+    --font-family: "Roboto", sans-serif;
+    /* font-weight: 400;
+    margin: 0 auto; */
+    --primary-color: crimson;
+    --secondary-color: royalblue;
 }
