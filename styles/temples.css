@@ -26,7 +26,7 @@ h2 {
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    /* max-width: 950px; */
+    
     margin: 0 auto;
 }
 
@@ -39,8 +39,6 @@ nav ul {
     margin: 0 auto;
     list-style-type: none;
     flex-direction: column;
-    /* text-align: center; */
-    /* justify-content: space-around; */
 }
 
 nav ul li {
@@ -51,11 +49,9 @@ nav ul li {
 nav a {
     font-size: 1.5rem;
     display: none;
-    /* text-align: center; */
     text-decoration: none;
     color: antiquewhite;
     padding: 1rem;
-    /* justify-content: space-around; */
 }
 
 nav a:hover {
@@ -71,7 +67,6 @@ nav a:hover {
 	color: white;
  	position: absolute;
 	right: 1rem;
-/*   right: 50px; */
 	top: 1.5rem;
 }
 
@@ -86,21 +81,13 @@ nav a:hover {
 .open a {
 	display: block;
 }
-/* img {
-    max-width: 200px;
-} */
 
 header, main, footer {
     max-width: 950px;
     margin: 1rem auto;
-    /* border: 1px solid black; */
     padding: 1rem;
-    /* background-color: cornflowerblue; */
 }
 
-/* .figures {
-    display: grid;
-} */
 figure {
     display: grid;
     padding: 1rem;
