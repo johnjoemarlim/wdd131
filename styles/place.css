@@ -7,7 +7,6 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: space-around;
-    /* padding: 1rem; */
 }
 
 h1 {
@@ -34,10 +33,7 @@ h2 {
 }
 
 .data li {
-    /* text-align: center; */
     display: grid;
-    /* align-items: center;
-    justify-content: center; */
     grid-template-columns: 1fr 1fr;
     padding: 0.5rem;
 }
@@ -93,24 +89,10 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    /* font-size: 19px; */
 }
 
 :root {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    
+
 }
-
-/* .data ul li b {
-    position: relative;
-    display: inline-block;
-    min-width: 100px;
-    margin-right: 4px;
-} */
-
-/* .data b::after {
-    content: ":";
-    position: absolute;
-    right: 0;
-} */
