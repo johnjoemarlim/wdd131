@@ -96,6 +96,10 @@ footer {
     /* font-size: 19px; */
 }
 
+:root {
+    font-family: "Roboto", sans-serif;
+}
+
 /* .data ul li b {
     position: relative;
     display: inline-block;
