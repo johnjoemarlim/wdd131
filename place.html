@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place Page</title>
+  <meta name="description" content="Contains information of the Philippines.">
+  <meta name="author" content="John Joemar Lim">
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header><h1>Philippines</h1></header>
+  <nav></nav>
+  <main>
+    <div class="hero">
+        <picture>
+            <source media="(min-width: 550px )" srcset="images\place-large.webp">
+            <!-- <source srcset="images\hero-medium.webp" media="(min-width: 500 )"> -->
+            <img src="images/place-small.webp" alt="Philippines" width="500" height="751">
+        </picture>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><b>Area:</b> <p>300,000 sq km</p></li>
+                <li><b>Population:</b> <p>117,337,000</p></li>
+                <li><b>Capital:</b> <p>Manila</p></li>
+                <li><b>Languages:</b> <p>Tagalog, English, Cebuano</p></li>
+                <li><b>Currency:</b> <p>Philippine Peso</p></li>
+                <li><b>Time Zone:</b> <p>UTC+8</p></li>
+                <li><b>Calling Code:</b> <p>+63</p></li>
+                <li><b>Internet TLD:</b> <p>.ph</p></li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" alt="Weather Icon">
+            <ul>
+                <li><b>Temperature:</b><p id="temp"> <span id="currenttemp"></span> °C</p></li>
+                <li><b>Conditions:</b><p id="conditions"> <span id="currentcondition"></span></p></li>
+                <li><b>Wind:</b><p id="wind"> <span id="windspeed"></span> km/hr</p></li>
+                <li><b>Wind Chill:</b><p id="windchill"> <span id="currentwindchill"></span> °C</p></li>
+            </ul>
+        </section>
+    </div>
+    
+  </main>
+  </main>
+  <footer>
+    <p id="year">©️<span id="currentyear"></span> 🎆 John Joemar Lim 🎆 Dublin, Ireland
+    </p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
