@@ -1,32 +1,24 @@
 @media (min-width: 45em) {
 	h1 {
-		/* font-size: 2.5rem; */
 		margin-left: 0;
         flex: 1;
-		/* text-align: center; */
         align-content: center;
 	}
 	
     header {
         display: flex;
-        /* grid-template-columns: 1fr 1fr; */
-        /* justify-content: space-around; */
-        
     }
 
 	h2 {
 		font-size: 2rem;
 		text-align: center;
-        /* grid-row: 1/2; */
 	}
 
 	#menu {
-		display: none; /* hide hamburger button */
+		display: none; 
 	}
 
     nav { 
-        /* display: inline-block; */
-        /* float: right; */
         flex: 1;
     }
 
@@ -41,10 +33,7 @@
 
     .figs-grid {
         display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 25px;place-items: center;
-        /* grid-template-columns: 1fr 1fr 1fr; */
     }
 	
-	/* .stuff {
-		margin: 1rem auto;
-	} */
+	
 }
