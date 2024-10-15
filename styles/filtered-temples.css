@@ -61,6 +61,11 @@ nav a:hover {
     color: white;
 }
 
+nav a:active {
+    background-color: black;
+    color: white;
+}
+
 #menu {
 	font-size: 2rem;
 	border: 0;
