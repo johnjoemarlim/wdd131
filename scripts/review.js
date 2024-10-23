@@ -3,7 +3,7 @@ const reviewsDisplay = document.querySelector(".reviews");
 let numBisita = Number(window.localStorage.getItem("numBisita-ls")) || 0;
 // reviewsDisplay.textContent = numReviews;
 if (numBisita !== 0) {
-    reviewsDisplay.textContent = numBisita;
+    reviewsDisplay.textContent = numBisita + 1;
 } else {    
     reviewsDisplay.textContent = "This is your first review. 🥳 Welcome!";
 }
