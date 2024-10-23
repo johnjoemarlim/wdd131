@@ -7,6 +7,9 @@
    <meta name="description" content="Week 5 Acitivity: Product Review Form">
    <meta name="author" content="John Joemar Lim">
    <link rel="stylesheet" href="styles/form.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
    <script src="scripts/form.js" defer></script>
    <!-- <script src="scripts/review.js" defer></script> -->
 </head>
@@ -15,13 +18,13 @@
    <nav></nav>
    <main>
         <form method="get" action="review.html" class="f1" id="f1">
-            <label class="spacing">Product Name
+            <label class="spacing">Product Name*
                 <select id="productName" name="productName" required>
                     <option value="" disabled selected>Select a Product</option>
                 </select>
             </label>
 
-            <div class="wrapper">Overall Rating</div>
+            <div class="wrapper">Overall Rating*</div>
                 <div class="star-rating">
                     <input type="radio" name="stars" id="star-a" value="5" required>
                     <label for="star-a"></label>
@@ -41,7 +44,7 @@
             
 
             
-            <label class="spacing">Date of Installation
+            <label class="spacing">Date of Installation*
                 <input type="date" id="dateOfInstallation" name="dateOfInstallation" required>
             </label>
             

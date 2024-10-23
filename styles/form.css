@@ -17,10 +17,13 @@ h1, footer {
     background-color: #A9232E;
     padding: 1rem;
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 main {
     padding: 2rem 6%;
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -61,6 +64,14 @@ select, textarea {
     background-color: #A9232E;
     border-radius: 10px;
     color: azure;
+}
+
+.f1 input:required, select:required {
+  border-bottom: solid 8px red;
+}
+
+.f1 input:required:valid, select:required:valid {
+  border-bottom: solid 8px green;
 }
 
 /* use reverse flexbox to take advantage of flex-direction: reverse */
@@ -120,4 +131,6 @@ select, textarea {
     font-size: 44px;
     text-align: center;
 }
+
+
   
