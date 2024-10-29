@@ -36,8 +36,8 @@ img.setAttribute("src", "images/league.webp");
 img.setAttribute("alt", `Basketball League Image`);
 img.setAttribute("loading", "lazy");
 
-document.querySelector(".homeSection").appendChild(description);
-document.querySelector(".homeSection").appendChild(img);
+document.querySelector(".homeDiv").appendChild(description);
+document.querySelector(".homeDiv").appendChild(img);
 
 let sched = document.createElement("section");
 let schedDay = document.createElement("h3");
